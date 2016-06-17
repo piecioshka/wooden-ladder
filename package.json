@@ -1,3 +1,35 @@
 {
-    "private": true
+    "name": "wooden-ladder",
+    "description": "Invokes 'fn1' until 'limit' is reached after that call 'fn2'",
+    "version": "1.0.0",
+    "author": {
+        "name": "Piotr Kowalski",
+        "email": "piecioshka@gmail.com",
+        "url": "http://piecioshka.pl/"
+    },
+    "scripts": {
+        "test": "jasmine JASMINE_CONFIG_PATH=test/unit/jasmine.json"
+    },
+    "devDependencies": {
+        "jasmine": "^2.4.1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/piecioshka/wooden-ladder.git"
+    },
+    "keywords": [
+        "wooden",
+        "ladder",
+        "climb",
+        "invoke",
+        "function",
+        "couple",
+        "times"
+    ],
+    "files": [
+        "index.js",
+        "README.md",
+        "package.json"
+    ],
+    "main": "./index.js"
 }
