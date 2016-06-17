@@ -2,7 +2,7 @@
 
 [![npm version](https://badge.fury.io/js/wooden-ladder.svg)](https://badge.fury.io/js/wooden-ladder)
 
-> :hammer: Invokes 'fn1' until 'limit' is reached after that call 'fn2'.
+> :hammer: Invokes "fn1" until "limit" is reached after that call "fn2".
 
 ## Install
 
@@ -12,7 +12,7 @@ npm install wooden-ladder
 
 ## Usage
 
-### Example 1
+### Example 1 (only climb)
 
 ```js
 let WoodenLadder = require('wooden-ladder');
@@ -32,7 +32,7 @@ lad.climb(); // fired "fn2"
 lad.climb(); // fired "fn2"
 ```
 
-### Example 2
+### Example 2 (with reset)
 
 ```js
 let WoodenLadder = require('wooden-ladder');
