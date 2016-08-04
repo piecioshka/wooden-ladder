@@ -65,4 +65,23 @@ describe('good work', function () {
         expect(foo.bar).toHaveBeenCalledTimes(3);
         expect(foo.baz).toHaveBeenCalledTimes(3);
     });
+
+    it('should reset climbing', function () {
+        var lad = new Ladder(3, foo.bar, foo.baz);
+
+        expect(foo.bar).not.toHaveBeenCalled();
+        expect(foo.baz).not.toHaveBeenCalled();
+
+        lad.climb();
+
+        expect(foo.bar).toHaveBeenCalledTimes(1);
+        expect(foo.baz).not.toHaveBeenCalled();
+
+        lad.reset();
+
+        lad.climb();
+
+        expect(foo.bar).toHaveBeenCalledTimes(2);
+        expect(foo.baz).not.toHaveBeenCalled();
+    });
 });
