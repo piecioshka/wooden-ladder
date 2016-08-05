@@ -43,5 +43,5 @@
         "README.md",
         "package.json"
     ],
-    "main": "./index.js"
+    "main": "./dist/wooden-ladder.js"
 }
