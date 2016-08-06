@@ -67,7 +67,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	 * @author Piotr Kowalski <piecioshka@gmail.com> (http://piecioshka.pl/)
 	 * @name wooden-ladder
 	 * @description Invokes 'fn1' until 'limit' is reached after that call 'fn2'
-	 * @version 1.1.0
+	 * @version 1.1.1
 	 * @license MIT
 	 * @example
 	 * let WoodenLadder = require('wooden-ladder');
