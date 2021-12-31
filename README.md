@@ -5,7 +5,7 @@
 [![travis-ci](https://api.travis-ci.com/piecioshka/wooden-ladder.svg?branch=master)](https://app.travis-ci.com/github/piecioshka/wooden-ladder)
 [![coverage](https://coveralls.io/repos/github/piecioshka/wooden-ladder/badge.svg?branch=master)](https://coveralls.io/github/piecioshka/wooden-ladder?branch=master)
 
-> :hammer: Invokes "fn1" until "limit" is reached after that call "fn2".
+:hammer: Invokes "fn1" until "limit" is reached after that call "fn2".
 
 ## Install
 
