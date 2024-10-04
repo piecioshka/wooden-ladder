@@ -1,15 +1,17 @@
-# wooden-ladder ([npm](https://www.npmjs.com/package/wooden-ladder))
+# wooden-ladder
 
+[![node version](https://img.shields.io/node/v/wooden-ladder.svg)](https://www.npmjs.com/package/wooden-ladder)
 [![npm version](https://badge.fury.io/js/wooden-ladder.svg)](https://badge.fury.io/js/wooden-ladder)
-![](https://img.shields.io/npm/dt/wooden-ladder.svg)
+[![downloads count](https://img.shields.io/npm/dt/wooden-ladder.svg)](https://www.npmjs.com/package/wooden-ladder)
+[![license](https://img.shields.io/npm/l/wooden-ladder.svg)](https://www.npmjs.com/package/wooden-ladder)
 [![travis-ci](https://api.travis-ci.com/piecioshka/wooden-ladder.svg?branch=master)](https://app.travis-ci.com/github/piecioshka/wooden-ladder)
 
 :hammer: Invokes "fn1" until "limit" is reached after that call "fn2".
 
 ## Install
 
-```
-$ npm install wooden-ladder
+```bash
+npm install wooden-ladder
 ```
 
 ## Usage
@@ -63,6 +65,6 @@ lad.climb(); // fired "fn2"
 lad.climb(); // fired "fn2"
 ```
 
-## License 
+## License
 
-[The MIT License](http://piecioshka.mit-license.org) @ 2016
+[The MIT License](https://piecioshka.mit-license.org) @ 2016
