@@ -4,7 +4,7 @@
 [![npm version](https://badge.fury.io/js/wooden-ladder.svg)](https://badge.fury.io/js/wooden-ladder)
 [![downloads count](https://img.shields.io/npm/dt/wooden-ladder.svg)](https://www.npmjs.com/package/wooden-ladder)
 [![license](https://img.shields.io/npm/l/wooden-ladder.svg)](https://www.npmjs.com/package/wooden-ladder)
-[![travis-ci](https://api.travis-ci.com/piecioshka/wooden-ladder.svg?branch=master)](https://app.travis-ci.com/github/piecioshka/wooden-ladder)
+[![github-ci](https://github.com/piecioshka/wooden-ladder/actions/workflows/testing.yml/badge.svg)](https://github.com/piecioshka/wooden-ladder/actions/workflows/testing.yml)
 
 :hammer: Invokes "fn1" until "limit" is reached after that call "fn2".
 
