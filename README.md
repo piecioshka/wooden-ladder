@@ -6,7 +6,7 @@
 [![license](https://img.shields.io/npm/l/wooden-ladder.svg)](https://piecioshka.mit-license.org)
 [![github-ci](https://github.com/piecioshka/wooden-ladder/actions/workflows/testing.yml/badge.svg)](https://github.com/piecioshka/wooden-ladder/actions/workflows/testing.yml)
 
-:hammer: Invokes "fn1" until "limit" is reached after that call "fn2".
+🔨 Invokes "fn1" until "limit" is reached after that call "fn2".
 
 ## Install
 
