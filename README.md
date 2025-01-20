@@ -9,13 +9,13 @@
 
 🔨 Invokes "fn1" until "limit" is reached after that call "fn2".
 
-## Install
+## Usage
+
+Installation:
 
 ```bash
 npm install wooden-ladder
 ```
-
-## Usage
 
 ### Example 1 (only climb)
 
