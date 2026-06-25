@@ -39,7 +39,8 @@
         "src",
         "index.js",
         "README.md",
-        "package.json"
+        "package.json",
+        "LICENSE"
     ],
     "main": "./dist/wooden-ladder.js"
 }
